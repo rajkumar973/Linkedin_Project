@@ -1,0 +1,12 @@
+Sub MergeCell()
+
+        ' Get worksheet
+        Dim worksheet As worksheet
+        Set worksheet = ThisWorkbook.Sheets("Sheet1") ' Replace "Sheet1" with your sheet name
+
+        ' Merge cells
+        
+        worksheet.Range("C1:E1").Merge ' Specify the range of cells to merge, for example, A1:B2
+        
+
+End Sub

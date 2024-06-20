@@ -1,0 +1,106 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Login_Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "LoginCredential_Email&Sequence_3",
+        "LoginCredentilal_Password&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Search_Developers_process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "DomainName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GetUserProfileUrlAndSearch_Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsEducationVisible&Sequence_3",
+        "dt_UserEducation&Sequence_1",
+        "TempDataTbale&Sequence_3",
+        "UserEducationRow&Sequence_3",
+        "UserYear&Sequence_1",
+        "UserCource&Sequence_1",
+        "UserInstitute&Sequence_1",
+        "UserAddress&Sequence_1",
+        "UserName&Sequence_1",
+        "Extract_Url&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_out_UsersDetailsDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Combine Columns.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "InputData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AddDataIntoExelSheet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RowNumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_CurrentDomain",
+        "in_UsersDetailsDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReadDomains.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UsersDetailsDataTable&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SendEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Pass&Sequence_1",
+        "Email&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
